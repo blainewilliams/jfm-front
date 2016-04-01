@@ -1,0 +1,135 @@
+/* Header / Nav */
+/**
+ * Header 1 stylesheet  
+ * */
+.header-1{
+  border-bottom: 1px solid #ccc;
+  background: #fff;
+  height: 90px;
+}
+.navbar-toggle {
+  margin-top: 25px;
+  padding: 9px 10px;
+}
+.navbar-default{
+  color: #485961;
+  background-color: #fff;
+  border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #485961;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a.active {
+  color: #ad8d54;
+  background-color: transparent;
+}
+.navbar .nav > li.active > a:hover,
+.navbar .nav > li.active > a:focus,
+.navbar .nav > li.active > a.active {
+  color: #ad8d54;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .dropdown > a .caret{
+  border-top-color: #485961;
+  border-bottom-color: #485961;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret,
+.navbar-default .navbar-nav > .dropdown > a.active .caret,
+.navbar-default .navbar-nav>.open>a {
+  border-top-color: #ad8d54;
+  border-bottom-color: #ad8d54;
+}
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus, 
+.navbar-default .navbar-nav>.open>a:hover {
+  color: #ad8d54;
+  background-color: transparent;
+}
+.navbar-default .navbar-brand{
+  color:#485961;
+}
+.navbar-nav{
+  padding-top: 20px;
+}
+.menu-large {
+  position: static !important;
+}
+.megamenu{
+  padding: 20px 0px;
+  width:100%;
+  border-radius: 0px;
+}
+.megamenu> li > ul {
+  padding: 0;
+  margin: 0;
+}
+.megamenu> li > ul > li {
+  list-style: none;
+}
+.megamenu> li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #485961;
+  white-space: normal;
+}
+.megamenu> li ul > li > a:hover,
+.megamenu> li ul > li > a:focus {
+  text-decoration: none;
+  color: #ad8d54;
+  background-color: transparent;
+}
+.megamenu.disabled > a,
+.megamenu.disabled > a:hover,
+.megamenu.disabled > a:focus {
+  color: #ad8d54;
+}
+.megamenu.disabled > a:hover,
+.megamenu.disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+.megamenu .dropdown-header {
+  color: #485961;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.header-1 .social li a{
+  padding: 3px 10px;
+}
+@media (max-width: 991px) {
+  .navbar-nav li a{
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 768px) {
+  .megamenu{
+    margin-left: 0 ;
+    margin-right: 0 ;
+  }
+  .megamenu> li {
+    margin-bottom: 30px;
+  }
+  .megamenu> li:last-child {
+    margin-bottom: 0;
+  }
+  .megamenu.dropdown-header {
+    padding: 3px 15px !important;
+
+  }
+  .navbar-brand>img {
+    width: 200px;
+  }
+  
+}
+
